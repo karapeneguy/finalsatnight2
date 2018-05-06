@@ -47,90 +47,191 @@ a {
 a:active {
   color: #828d95; }
 
-#mainimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%; }
-
 #trait {
-  width: 40%;
-  margin-left: 10%;
   text-decoration-color: white;
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
   height: 3px;
   text-align: center; }
 
-.blackboxfooter {
-  background-color: black;
-  width: 100%;
+#aboutmetext {
+  font-size: 20px;
+  text-align: center; }
+
+.trait {
+  text-align: center; }
+
+h3 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center; }
+
+#aboutme {
+  margin-top: 900px;
+  clear: none;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.biobutton button {
+  font-family: "Permanent Marker", cursive;
+  font-size: 15px;
   color: white;
-  margin-bottom: 0px; }
+  background-color: black;
+  margin-bottom: 20px;
+  margin-top: 10px; }
 
-.bit-widget-container {
-  width: 43%;
-  margin-right: 10%;
-  border: solid 4px black;
-  height: 400px;
-  float: right; }
+.biography {
+  display: none; }
+  .biography p {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    width: 60%;
+    text-align: center;
+    margin-left: 350px; }
 
-.bit-widget {
-  width: 100% !important; }
-
-#spotifyplayer {
-  margin-left: 480px; }
-
-#spotifyplayerhome {
-  margin-left: 10%; }
-
-.contactmanagement {
-  margin: o auto;
+#signuptext {
+  margin-bottom: 20px;
+  font-size: 60px;
+  margin-top: 20px;
   text-align: center; }
 
 #mc_embed_signup {
   background: #fff;
-  clear: left;
+  align-content: center;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   width: 50%;
   margin-bottom: 50px;
   color: black; }
 
-#aboutmeimg {
-  width: 35%;
-  float: right;
-  margin-top: 60px;
-  margin-right: 10%; }
+/* below are things for the polaroid gallery */
+body {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif; }
 
-#aboutmetext {
-  font-size: 20px; }
+div#background {
+  height: 700px;
+  width: 100%;
+  background-color: white;
+  padding-top: 20px; }
 
-#aboutme {
-  margin-top: 160px;
-  clear: none;
-  margin-bottom: 20px; }
+div#gallery {
+  width: 1200px;
+  margin: auto; }
 
-#signuptext {
-  margin-bottom: 20px;
-  font-size: 60px;
-  margin-bottom: 6px;
-  margin-top: 60px;
-  text-align: center; }
+#background img {
+  height: 250px;
+  margin: 0px; }
 
-.biobutton button {
-  margin-left: 25%;
-  font-family: "Permanent Marker", cursive;
+#background figure {
+  float: left;
+  position: relative;
+  background-color: white;
+  text-align: center;
   font-size: 15px;
-  color: white;
-  background-color: black;
-  margin-bottom: 20px; }
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 2px 3px black; }
 
-.biography {
-  display: none; }
-  .biography p {
-    font-size: 12px;
+figure.pic1 {
+  -webkit-transform: rotate(-10deg);
+  z-index: 1; }
+
+figure.pic2 {
+  -webkit-transform: rotate(15deg);
+  z-index: 2; }
+
+figure.pic3 {
+  -webkit-transform: rotate(-25deg);
+  z-index: 1; }
+
+figure.pic4 {
+  -webkit-transform: rotate(5deg);
+  z-index: 1; }
+
+figure.pic5 {
+  -webkit-transform: rotate(5deg);
+  z-index: 1; }
+
+figure.pic6 {
+  -webkit-transform: rotate(-8deg);
+  z-index: 1; }
+
+figure.pic7 {
+  -webkit-transform: rotate(2deg);
+  z-index: 1; }
+
+figure.pic8 {
+  -webkit-transform: rotate(-13deg);
+  z-index: 1; }
+
+figure.pic9 {
+  -webkit-transform: rotate(-7deg);
+  z-index: 1; }
+
+figure.pic10 {
+  -webkit-transform: rotate(2deg);
+  z-index: 1; }
+
+figure.pic11 {
+  -webkit-transform: rotate(-3deg);
+  z-index: 1; }
+
+figure.pic12 {
+  -webkit-transform: rotate(5deg);
+  z-index: 1; }
+
+figure.pic13 {
+  -webkit-transform: rotate(-10deg);
+  z-index: 1; }
+
+figure.pic14 {
+  -webkit-transform: rotate(15deg);
+  z-index: 2; }
+
+figure.pic15 {
+  -webkit-transform: rotate(-25deg);
+  z-index: 1; }
+
+figure.pic16 {
+  -webkit-transform: rotate(5deg);
+  z-index: 1; }
+
+figure.pic17 {
+  -webkit-transform: rotate(5deg);
+  z-index: 1; }
+
+figure.pic18 {
+  -webkit-transform: rotate(-8deg);
+  z-index: 1; }
+
+figure.pic19 {
+  -webkit-transform: rotate(2deg);
+  z-index: 1; }
+
+figure.pic20 {
+  -webkit-transform: rotate(-13deg);
+  z-index: 1; }
+
+#background figure:hover {
+  box-shadow: 5px 10px 100px black;
+  -webkit-transform: scale(1.1, 1.1);
+  z-index: 20; }
+
+.lyrics {
+  margin-left: 800px;
+  background-color: black;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .lyrics a {
+    color: white;
     font-family: "Open Sans", sans-serif; }
+
+#soundcloudplayer {
+  margin-top: 20px;
+  margin-left: 300px; }
 
 h1 {
   font-family: "Permanent Marker", cursive;
@@ -144,16 +245,14 @@ h2 {
   font-size: 20px;
   text-align: center; }
 
-h3 {
-  font-family: "Permanent Marker", cursive;
-  font-size: 40px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  text-align: center;
-  margin-left: 10%;
-  width: 40%; }
-
 p {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  text-align: center; }
+
+.blackboxfooter {
+  background-color: black;
+  width: 100%;
+  color: white;
+  margin-bottom: 0px; }
 
 /*# sourceMappingURL=main.css.map */

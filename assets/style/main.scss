@@ -9,10 +9,6 @@
 
 
 
-
-
-
-
 h1{
 font-family: $main-font;
     font-size: 60px;
@@ -29,21 +25,18 @@ font-family: $main-font;
     text-align: center;  
 }
 
-h3{font-family: $main-font;
-    font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-  text-align: center;
-    margin-left: 10%;
-    width: 40%; 
-}
-
-
 
 p{
    font-family: $paragraph-font;
+    text-align: center;
 }
 
+.blackboxfooter{
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin-bottom: 0px;
+}
 
 
 

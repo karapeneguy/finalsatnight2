@@ -1,14 +1,112 @@
 <?php include "templates/header.php"; ?>
 
-    
+    <div id="background">
+  <div id="gallery">
+    <figure class="pic1">
+      <img src="assets/images/amsterdambw.jpg"/>
+      <figcaption>amsterdam</figcaption>
+    </figure>
+    <figure class="pic2">
+      <img src="assets/images/backbw.jpg"/>
+      <figcaption>lazy days</figcaption>
+    </figure>
+    <figure class="pic3">
+      <img src="assets/images/cactusbw.jpg"/>
+      <figcaption>cactii</figcaption>
+    </figure>
+    <figure class="pic4">
+      <img src="assets/images/backwater.jpg"/>
+      <figcaption>kingston</figcaption>
+    </figure>
+    <figure class="pic5">
+      <img src="assets/images/barn.jpg"/>
+      <figcaption>mississippi</figcaption>
+    </figure>
+    <figure class="pic6">
+      <img src="assets/images/camerabw2.jpg" />
+      <figcaption>vintage camera</figcaption>
+    </figure>
+    <figure class="pic7">
+      <img src="assets/images/beach1bw.jpg" />
+      <figcaption>kingston</figcaption>
+    </figure>
+    <figure class="pic8">
+      <img src="assets/images/chandeleirbw.jpg" />
+      <figcaption>chandeleirs</figcaption>
+    </figure>
+      <figure class="pic9">
+      <img src="assets/images/closeupbwfixed.jpg" />
+      <figcaption>close up</figcaption>
+    </figure>
+    <figure class="pic10">
+      <img src="assets/images/churchbw.jpg"/>
+      <figcaption>church</figcaption>
+    </figure>
+    <figure class="pic11">
+      <img src="assets/images/denimjacketactualfixed.jpg" />
+      <figcaption>denim</figcaption>
+    </figure>
+      
+      <figure class="pic12">
+      <img src="assets/images/edittapbw.jpg" />
+      <figcaption>my room</figcaption>
+    </figure>
+      
+        <figure class="pic13">
+      <img src="assets/images/hiholounge.jpg" />
+      <figcaption>backstage</figcaption>
+    </figure>
+      
+        <figure class="pic14">
+      <img src="assets/images/eiffeltower.jpg" />
+      <figcaption>eiffel tower</figcaption>
+    </figure>
+      
+        <figure class="pic15">
+      <img src="assets/images/karaedit.jpg" />
+      <figcaption>sunlight</figcaption>
+    </figure>
+      
+        <figure class="pic16">
+      <img src="assets/images/hotelpoolbw.jpg" />
+      <figcaption>hotel pool</figcaption>
+    </figure>
+      
+         <figure class="pic17">
+      <img src="assets/images/denimjacketbwfixed.jpg">
+      <figcaption>staring</figcaption>
+    </figure>
+      
+         <figure class="pic18">
+      <img src="assets/images/sunflower.jpg">
+      <figcaption>sunflowers</figcaption>
+    </figure>
+      
+
+      
+       <figure class="pic19">
+      <img src="assets/images/parisstepsbw.jpg">
+      <figcaption>paris</figcaption>
+    </figure>
+      
+       <figure class="pic20">
+      <img src="assets/images/trainbw.jpg">
+      <figcaption>train station</figcaption>
+    </figure>
+      
+      
+  </div>
+</div>
+
 
 
    
-<img src="assets/images/bluewallskirt.jpg" id="mainimage">
+
+
+
     
         
 
-<img src="assets/images/jacketbed.jpg" id="aboutmeimg">
 
     
    <div id="aboutme"> <h3>About Me</h3>
@@ -34,7 +132,7 @@
       <p>obsessed with animals, retro clothing, california, driving with the windows down, leather jackets, tattoos, quirky people, fun patterns, cookie dough, thrift stores, being in the sun, jumping into cold pools, writing, improving over beats, amsterdam, houseboats, vespas, sunglasses, riding in the back of trucks, interior design, succulents, indoor plants, bohemian design, minimalism, mindfulness </p>
       
       <p>i value genuinity, independence, honesty, open-mindedness, creativity, bluntness, openess, kindness, tenacity, drive, empathy </p>
-      <a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/kara_wolfe/%252Binfp%252B/"></a>
+    
       
       
     </div>
@@ -44,15 +142,7 @@
      
   
 
-    
  
-    <iframe id="spotifyplayerhome" src="https://open.spotify.com/embed/album/4XTUXze7zKi02cUYptnsZC" width="450" height="407" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-
-    
-    <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Electric Swandive" data-display-local-dates="true" data-display-past-dates="true" data-auto-style="false" data-text-color="#000000" data-link-color="#000000" data-popup-background-color="#FFFFFF" data-background-color="#FFFFFF" data-display-limit="15" data-link-text-color="#FFFFFF" data-widget-width="80%"></a>
-
-    
     
   
     
@@ -61,10 +151,10 @@
     <h1 id="signuptext">Keep up!</h1>
     
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+
 	
-</style>
+	
+
 <div id="mc_embed_signup">
 <form action="https://karawolfe.us17.list-manage.com/subscribe/post?u=324a95b65a43c5379cf7c8951&amp;id=78b5268598" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
@@ -82,3 +172,5 @@
 
 
 <?php include "templates/footer.php"; ?>
+
+

@@ -1,24 +1,11 @@
 <?php include "templates/header.php"; 
 
 $gallery = array(
-    array("In My Place", "bluewallfull.jpg", "https://www.spotify.com", "artist/1cozCwdlKSBmz3pjz7rr5S"), 
-    array("idk JACK", "cactus.jpg"),
-    array("The Difference", "loyolasunset.jpg"),
-    array("Icarus", "chandeleir.jpg"),
-    array("Rolling (All my girls)", "oldtheater.jpg"),
-    array("Drag Me Down", "marketamsterdam.jpg"),
-    array ("Lord, Can you?", "calisunset.jpg"),
-    array("Hide & Seek", "edittap.jpg"), 
-    array("Unfortunate Affair", "oldcar.jpg"), 
-    array ("Scar Tissue", "staringinbed.jpg"),
-
-    
-    
+    array("idk JACK", "440227089%3Fsecret_token%3DsJt9md&color=%231b1b1b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true", "idkjack.php" ),
+    array("The Difference", ),
+    array("Unfortunate Affair", ), 
 );
     
-    
-
-
 
 ?>
 
@@ -37,32 +24,17 @@ foreach($gallery as $item){
 <!-- 1. Song Title -->   
 <h3><?php echo $item[0]; ?></h3>
     
-    <!-- 2. Image --> 
-    <img width="300" src="assets/images/<?php echo $item[1] ?>">
+  
     
-    <!-- 3. Spotify -->  
-    
-      <a href="https://open.spotify.com/<?php echo $item[2] ?>" target ="_blank">
-    <img src="assets/badges/Spotify-Badge.png" href>
-        </a>
-    
-    <!-- 4. Apple Music -->  
-       <a href="https://www.apple.com/apple-music/<?php echo $item[3] ?>" target ="_blank">
-    <img src="assets/badges/Apple_Music_Store_Small_Badge_RGB.svg" href>
-        </a>
    
-    <!-- 5. Google Play Music --> 
-     <a href="https://play.google.com/music/listen<?php echo $item[4] ?>" target ="_blank">
-    <img src="assets/badges/google-play-badge.png" href>
+   
+    <!-- 2. Soundcloud --> 
+   <iframe id="soundcloudplayer" width="60%"  height="166"  scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<?php echo $item[1] ?>"></iframe>
     
-    <!-- 6. Soundcloud --> 
-           <a href="  https://soundcloud.com/<?php echo $item[5] ?>" target ="_blank">
-    <img src="assets/badges/soundcloud.png" href>
-         
-       
+    <br>
     
-    <!-- 7. Lyrics --> 
-     <button><a href="<?php echo $item[6] ?> target ="_blank"">Download Lyrics</a></button>
+    <!-- 3. Lyrics --> 
+     <button class="lyrics"><a href="<?php echo $item[2] ?>">Download Lyrics</a></button>
   
 </div>
 <hr>
