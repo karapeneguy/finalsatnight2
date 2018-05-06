@@ -1,0 +1,52 @@
+@import "variables";
+@import "global";
+@import "header";
+@import "index";
+@import "music";
+@import "blog";
+@import "contact";
+
+
+
+
+
+
+
+
+h1{
+font-family: $main-font;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+h2{
+font-family: $main-font;
+    font-size: 20px;
+    text-align: center;  
+}
+
+h3{font-family: $main-font;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  text-align: center;
+    margin-left: 10%;
+    width: 40%; 
+}
+
+
+
+p{
+   font-family: $paragraph-font;
+}
+
+
+
+
+
+
+
