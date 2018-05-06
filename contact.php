@@ -7,13 +7,14 @@
 
 
 <h2>Booking</h2>
-<p>booking@karawolfe.com</p>
+<a class="emails" href="mailto:booking@karawolfe.com?Subject=BookingInquiry" target="_top">booking@karawolfe.com</a>
 
 <h2>Management</h2>
-<p>management@karawolfe.com</p>
+<a class="emails" href="mailto:management@karawolfe.com?Subject=Hello" target="_top">management@karawolfe.com</a>
 
 <h2>Publishing</h2>
-<p>publishing@karawolfe.com</p>
+<a class="emails" href="mailto:publishing@karawolfe.com?Subject=PublishingInquiry" target="_top">publishing@karawolfe.com</a>
+
 <br>
 <br>
 <br>

@@ -233,6 +233,10 @@ figure.pic20 {
   margin-top: 20px;
   margin-left: 300px; }
 
+.emails {
+  text-align: center;
+  align-content: center; }
+
 h1 {
   font-family: "Permanent Marker", cursive;
   font-size: 60px;
