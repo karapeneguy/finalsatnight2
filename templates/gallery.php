@@ -1,9 +1,9 @@
 <?php include "templates/header.php"; 
 
 $gallery = array(
+      array("In My Place", "filllater", "inmyplace.php" ),
     array("idk JACK", "440227089%3Fsecret_token%3DsJt9md&color=%231b1b1b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true", "idkjack.php" ),
-    array("The Difference", ),
-    array("Unfortunate Affair", ), 
+    array("Unfortunate Affair", "filllater", "unfortunateaffair.php" ), 
 );
     
 

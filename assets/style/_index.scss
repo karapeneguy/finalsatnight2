@@ -60,7 +60,7 @@ p {
         font-family: $paragraph-font;
         width: 60%;
        text-align: center;
-    margin-left: 350px;
+    margin: 0 auto;
     }
     
     
@@ -76,12 +76,12 @@ p {
 
 
 #mc_embed_signup{
+    margin: 0 auto; 
     background:#fff; 
  align-content: center;
     font-family: $paragraph-font;
     font-size:14px;   
       width: 50%;
-    margin-bottom: 50px;
     color: black;
 }
 

@@ -89,7 +89,7 @@ h3 {
     font-family: "Open Sans", sans-serif;
     width: 60%;
     text-align: center;
-    margin-left: 350px; }
+    margin: 0 auto; }
 
 #signuptext {
   margin-bottom: 20px;
@@ -98,12 +98,12 @@ h3 {
   text-align: center; }
 
 #mc_embed_signup {
+  margin: 0 auto;
   background: #fff;
   align-content: center;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   width: 50%;
-  margin-bottom: 50px;
   color: black; }
 
 /* below are things for the polaroid gallery */
@@ -221,7 +221,8 @@ figure.pic20 {
   z-index: 20; }
 
 .lyrics {
-  margin-left: 800px;
+  margin: 0 auto;
+  display: block;
   background-color: black;
   margin-bottom: 20px;
   margin-top: 20px; }
@@ -231,11 +232,11 @@ figure.pic20 {
 
 #soundcloudplayer {
   margin-top: 20px;
-  margin-left: 300px; }
+  margin: 0 auto;
+  display: block; }
 
 .emails {
-  text-align: center;
-  align-content: center; }
+  margin-left: 45%; }
 
 h1 {
   font-family: "Permanent Marker", cursive;
@@ -247,6 +248,9 @@ h1 {
 h2 {
   font-family: "Permanent Marker", cursive;
   font-size: 20px;
+  text-align: center; }
+
+h3 {
   text-align: center; }
 
 p {

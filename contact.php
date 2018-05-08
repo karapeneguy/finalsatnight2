@@ -1,10 +1,9 @@
 <?php include "templates/header.php"; ?>
 <br>
 <br>
-<br>
-<br>
 
 
+<h1>Contact</h1>
 
 <h2>Booking</h2>
 <a class="emails" href="mailto:booking@karawolfe.com?Subject=BookingInquiry" target="_top">booking@karawolfe.com</a>

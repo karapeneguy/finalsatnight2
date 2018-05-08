@@ -8,11 +8,11 @@
     </figure>
     <figure class="pic2">
       <img src="assets/images/backbw.jpg"/>
-      <figcaption>lazy days</figcaption>
+      <figcaption>carrollton hall</figcaption>
     </figure>
     <figure class="pic3">
       <img src="assets/images/cactusbw.jpg"/>
-      <figcaption>cactii</figcaption>
+      <figcaption>cactii in paris</figcaption>
     </figure>
     <figure class="pic4">
       <img src="assets/images/backwater.jpg"/>
@@ -32,29 +32,29 @@
     </figure>
     <figure class="pic8">
       <img src="assets/images/chandeleirbw.jpg" />
-      <figcaption>chandeleirs</figcaption>
+      <figcaption>baton rouge</figcaption>
     </figure>
       <figure class="pic9">
       <img src="assets/images/closeupbwfixed.jpg" />
-      <figcaption>close up</figcaption>
+      <figcaption>carrollton hall</figcaption>
     </figure>
     <figure class="pic10">
       <img src="assets/images/churchbw.jpg"/>
-      <figcaption>church</figcaption>
+      <figcaption>bywater church</figcaption>
     </figure>
     <figure class="pic11">
       <img src="assets/images/denimjacketactualfixed.jpg" />
-      <figcaption>denim</figcaption>
+      <figcaption>carrollton hall</figcaption>
     </figure>
       
       <figure class="pic12">
       <img src="assets/images/edittapbw.jpg" />
-      <figcaption>my room</figcaption>
+      <figcaption>my dorm room</figcaption>
     </figure>
       
         <figure class="pic13">
       <img src="assets/images/hiholounge.jpg" />
-      <figcaption>backstage</figcaption>
+      <figcaption>backstage at hi-ho</figcaption>
     </figure>
       
         <figure class="pic14">
@@ -64,22 +64,22 @@
       
         <figure class="pic15">
       <img src="assets/images/karaedit.jpg" />
-      <figcaption>sunlight</figcaption>
+      <figcaption>thrift shop finds</figcaption>
     </figure>
       
         <figure class="pic16">
       <img src="assets/images/hotelpoolbw.jpg" />
-      <figcaption>hotel pool</figcaption>
+      <figcaption>florida</figcaption>
     </figure>
       
          <figure class="pic17">
       <img src="assets/images/denimjacketbwfixed.jpg">
-      <figcaption>staring</figcaption>
+      <figcaption>dorm room</figcaption>
     </figure>
       
          <figure class="pic18">
       <img src="assets/images/sunflower.jpg">
-      <figcaption>sunflowers</figcaption>
+      <figcaption>bywater sunflowers</figcaption>
     </figure>
       
 
@@ -91,7 +91,7 @@
       
        <figure class="pic20">
       <img src="assets/images/trainbw.jpg">
-      <figcaption>train station</figcaption>
+      <figcaption>leuven train station</figcaption>
     </figure>
       
       
