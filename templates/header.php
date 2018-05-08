@@ -25,7 +25,6 @@
         <ul class="menu">
             <li><a href="index.php">HOME</a></li>
             <li><a href="music.php">MUSIC</a></li>
-            <li><a href="blog.php">BLOG</a></li>
             <li><a href="contact.php">CONTACT</a></li>
 
         </ul>
